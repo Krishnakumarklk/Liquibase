@@ -1,7 +1,7 @@
 --liquibase formatted sql
 
---changeset txn:08
-create table txnmaster (
+--changeset pri:08
+create table txnmaster20 (
 id int primary key,
 name varchar(255)
 );

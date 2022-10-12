@@ -1,7 +1,7 @@
 --liquibase formatted sql
 
---changeset pri:08
-create table txnmaster20 (
+--changeset muldb:008
+create table muldb (
 id int primary key,
 name varchar(255)
 );

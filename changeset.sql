@@ -1,7 +1,7 @@
 --liquibase formatted sql
 
---changeset muldb1:008
-create table muldb (
+--changeset muldb2:008
+create table muldb2 (
 id int primary key,
 name varchar(255)
 );

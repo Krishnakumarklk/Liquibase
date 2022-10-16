@@ -1,7 +1,7 @@
 --liquibase formatted sql
 
---changeset systest:007
-create table pnbtbl (
+--changeset sys:007
+create table myfile (
 id int primary key,
 name varchar(255)
 );

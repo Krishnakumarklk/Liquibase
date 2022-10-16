@@ -1,7 +1,7 @@
 --liquibase formatted sql
 
---changeset muldb3:008
-create table muldb3 (
+--changeset systest:007
+create table pnbtbl (
 id int primary key,
 name varchar(255)
 );

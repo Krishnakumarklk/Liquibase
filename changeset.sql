@@ -1,9 +1,9 @@
 --liquibase formatted sql
 
---changeset sys:007
-create table test03 (
+--changeset skemp:001
+create table skemp (
 id int primary key,
 name varchar(255)
 );
 
---rollback drop table test03
+--rollback drop table skemp

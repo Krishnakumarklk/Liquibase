@@ -1,9 +1,9 @@
 -- liquibase formatted sql 
 
---changeset mysql02:002
-create table mysql02 (
+--changeset mysql03:003
+create table mysql03 (
 id int primary key,
 name varchar(255)
 );
 
---rollback drop table mysql02
+--rollback drop table mysql03

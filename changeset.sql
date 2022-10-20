@@ -1,6 +1,9 @@
 -- liquibase formatted sql 
 
---changeset mysql05spx:005
-CALL mysql05insert(1001,'Azure')
+--changeset mysqltest:006
+create table test (
+id int primary key,
+name varchar(255)
+);
 
---rollback drop table mysql05
+--rollback drop table test

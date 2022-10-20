@@ -1,8 +1,5 @@
 -- liquibase formatted sql 
 
---changeset mysqltestsp:006
-CREATE PROCEDURE mysqltestinsert(IN eid int,IN ename varchar(50))
-begin
-insert into test (id,name) values(eid,ename);
-end
+--changeset mysqltestspx:006
+CALL mysqltestinsert (101,'mysql')
 --rollback drop table test

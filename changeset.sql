@@ -1,6 +1,9 @@
 -- liquibase formatted sql 
 
---changeset mysql04sp2x:004
-CALL mysql04insert(101,'AWS');
+--changeset mysql05:005
+create table mysql05 (
+id int,
+name varchar(255)
+);
 
---rollback drop table mysql04
+--rollback drop table mysql05

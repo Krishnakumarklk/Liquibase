@@ -1,9 +1,8 @@
 -- liquibase formatted sql 
 
 --changeset mysql04:004
-create table mysql04 (
-id int primary key,
-name varchar(255)
-);
-
+create procedure mysql04insert(eid int,ename varchar(50))
+begin 
+insert into mysql04 values(@eid,@ename);
+end
 --rollback drop table mysql04

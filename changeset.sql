@@ -1,8 +1,5 @@
 -- liquibase formatted sql 
 
---changeset mysql04sp:004
-create procedure mysql04insert(eid int,ename varchar(50))
-begin 
-insert into mysql04 values(@eid,@ename);
-end
+--changeset mysql04spx:004
+call mysql04insert(101,'Ubuntu');
 --rollback drop table mysql04

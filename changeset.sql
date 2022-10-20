@@ -1,5 +1,5 @@
 -- liquibase formatted sql 
 
---changeset mysql04spx:004
-call mysql04insert(101,'Ubuntu');
+--changeset mysql04spdrop:004
+drop procedure mysql04insert;
 --rollback drop table mysql04
